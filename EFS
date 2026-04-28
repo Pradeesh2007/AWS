@@ -1,0 +1,23 @@
+EBS- 
+windows, linux OS support 
+GP   gp2 1-16 tib 100 ,16k , gp3 1 - 64 tib 3k - 80k
+P-iops  io-1 4-16 100 - 5k io2- 4-64tib 100-100k
+ST  125-16 TiB
+SC  125 -16Tib
+Maganatic
+charges based on volume size what we create
+using snapshot trabsfer the data b/w diff AZ/region/account
+
+EFS-
+work like NAS (support multiple machines can access)
+support only linux
+charges based on storage class and size of data what we stored (per GB based)
+
+to create efs in SG need to add nfs,ssh,http,https
+in vpc need to enable DNS hostname
+
+standard
+standatd-ia
+onezone
+onezone-ia
+archive
