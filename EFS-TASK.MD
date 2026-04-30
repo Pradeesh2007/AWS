@@ -37,3 +37,24 @@ use efs mount  via ip
 
 create LB and access private subnets outside
 ```
+```
+#!/bin/bash
+yum update 
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+yum -y install amazon-efs-utils
+mkdir /efs-01
+
+```
+
+```
+#!/bin/bash
+apt update
+apt install apache2 -y
+systemctl start apache2
+systemctl enable apache2
+sudo apt-get install -y nfs-common
+mkdir /efs-02
+
+```
