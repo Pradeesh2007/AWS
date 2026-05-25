@@ -4653,21 +4653,975 @@ Windows, Mac, Linux, mobile.
 
 ---
 
-# Remaining Services
 
-Continue same detailed 50-question format for:
+# AWS OpsWorks Interview Questions and Answers (1–50)
 
-* OpsWorks
-* Systems Manager (SSM)
-* AWS Certificate Manager (ACM)
+## Beginner Level
 
-Include:
+### 1. What is AWS OpsWorks?
 
-* Beginner
-* Intermediate
-* Advanced
-* Expert
-* Scenario-based
+Configuration management service using Chef and Puppet.
+
+---
+
+### 2. What are the types of OpsWorks?
+
+* OpsWorks Stacks
+* OpsWorks for Chef Automate
+* OpsWorks for Puppet Enterprise
+
+---
+
+### 3. What is configuration management?
+
+Automating server configuration and deployment.
+
+---
+
+### 4. What is an OpsWorks Stack?
+
+Logical container for AWS resources.
+
+---
+
+### 5. What is a layer in OpsWorks?
+
+Defines server role and configuration.
+
+---
+
+### 6. What are common layers?
+
+* Web Layer
+* App Layer
+* Database Layer
+
+---
+
+### 7. What is an instance in OpsWorks?
+
+EC2 server managed by OpsWorks.
+
+---
+
+### 8. What are recipes in Chef?
+
+Automation scripts for configuration.
+
+---
+
+### 9. What is a cookbook?
+
+Collection of Chef recipes.
+
+---
+
+### 10. What is lifecycle event?
+
+Automatic execution stage in OpsWorks.
+
+---
+
+## Intermediate Level
+
+### 11. Lifecycle events in OpsWorks?
+
+* Setup
+* Configure
+* Deploy
+* Undeploy
+* Shutdown
+
+---
+
+### 12. What is Chef?
+
+Automation framework for infrastructure management.
+
+---
+
+### 13. What is Puppet?
+
+Configuration management tool.
+
+---
+
+### 14. What is deployment in OpsWorks?
+
+Application release automation.
+
+---
+
+### 15. What is auto healing?
+
+Automatic instance replacement.
+
+---
+
+### 16. What is custom cookbook?
+
+User-created Chef cookbook.
+
+---
+
+### 17. What is stack scaling?
+
+Adding/removing instances automatically.
+
+---
+
+### 18. What is Elastic Load Balancer integration?
+
+Traffic distribution across instances.
+
+---
+
+### 19. What is IAM integration?
+
+Permission management for OpsWorks.
+
+---
+
+### 20. What is monitoring in OpsWorks?
+
+CloudWatch metrics and logs.
+
+---
+
+## Advanced Level
+
+### 21. What is OpsWorks agent?
+
+Software installed on instances.
+
+---
+
+### 22. What is Berkshelf?
+
+Chef dependency management tool.
+
+---
+
+### 23. What is Chef Automate?
+
+Enterprise Chef management platform.
+
+---
+
+### 24. What is environment variable in OpsWorks?
+
+Configuration value for applications.
+
+---
+
+### 25. What is stack JSON?
+
+Custom deployment configuration data.
+
+---
+
+### 26. What is application deployment lifecycle?
+
+Process of deploying application versions.
+
+---
+
+### 27. What is rolling deployment?
+
+Gradual application deployment.
+
+---
+
+### 28. What is immutable deployment?
+
+Replace old instances with new ones.
+
+---
+
+### 29. What is AWS OpsWorks limitation?
+
+Limited compared to CloudFormation/CDK.
+
+---
+
+### 30. Difference between OpsWorks and CloudFormation?
+
+| OpsWorks          | CloudFormation         |
+| ----------------- | ---------------------- |
+| Config management | Infrastructure as Code |
+
+---
+
+## Expert Level
+
+### 31. OpsWorks best practices?
+
+* Use version control
+* Automate deployments
+* Monitor logs
+
+---
+
+### 32. How do you secure OpsWorks?
+
+IAM and encrypted secrets.
+
+---
+
+### 33. What is secret management?
+
+Secure handling of credentials.
+
+---
+
+### 34. What is encrypted data bag?
+
+Secure Chef data storage.
+
+---
+
+### 35. What is centralized configuration management?
+
+Single configuration governance.
+
+---
+
+### 36. What is disaster recovery in OpsWorks?
+
+Automated infrastructure rebuild.
+
+---
+
+### 37. What is infrastructure drift?
+
+Manual changes outside automation.
+
+---
+
+### 38. What is compliance automation?
+
+Automated security policies.
+
+---
+
+### 39. What is hybrid infrastructure support?
+
+Managing cloud and on-prem systems.
+
+---
+
+### 40. What is troubleshooting deployment failure?
+
+Check logs and recipes.
+
+---
+
+### 41. What is scaling automation?
+
+Dynamic infrastructure scaling.
+
+---
+
+### 42. What is OpsWorks integration with CodeDeploy?
+
+Automated CI/CD deployment.
+
+---
+
+### 43. What is node management?
+
+Managing server configurations.
+
+---
+
+### 44. What is blue-green deployment?
+
+Deploy new environment separately.
+
+---
+
+### 45. What is monitoring strategy?
+
+CloudWatch and centralized logs.
+
+---
+
+### 46. What is Chef cookbook versioning?
+
+Managing recipe revisions.
+
+---
+
+### 47. What are common OpsWorks scenarios?
+
+Automated web application deployment.
+
+---
+
+### 48. What is infrastructure consistency?
+
+Identical server configurations.
+
+---
+
+### 49. What is OpsWorks migration path?
+
+Move to SSM or CloudFormation.
+
+---
+
+### 50. OpsWorks best practices summary?
+
+* Automation
+* Versioning
+* Monitoring
 * Security
-* Troubleshooting
-* Best practices
+
+---
+
+# AWS Systems Manager (SSM) Interview Questions and Answers (1–50)
+
+## Beginner Level
+
+### 1. What is AWS Systems Manager?
+
+AWS service for operational management.
+
+---
+
+### 2. What are SSM benefits?
+
+* Centralized management
+* Automation
+* Patching
+* Secure access
+
+---
+
+### 3. What is SSM Agent?
+
+Software installed on managed instances.
+
+---
+
+### 4. What are managed instances?
+
+Servers managed by SSM.
+
+---
+
+### 5. What is Session Manager?
+
+Browser/CLI-based secure shell access.
+
+---
+
+### 6. What is Run Command?
+
+Execute commands remotely.
+
+---
+
+### 7. What is Patch Manager?
+
+Automated patching solution.
+
+---
+
+### 8. What is Automation?
+
+Automated operational workflows.
+
+---
+
+### 9. What is Parameter Store?
+
+Secure configuration storage.
+
+---
+
+### 10. What is State Manager?
+
+Maintains desired server state.
+
+---
+
+## Intermediate Level
+
+### 11. What is Inventory in SSM?
+
+Collects server metadata.
+
+---
+
+### 12. What is Maintenance Window?
+
+Scheduled operational tasks.
+
+---
+
+### 13. What is Distributor?
+
+Software package deployment service.
+
+---
+
+### 14. What is OpsCenter?
+
+Centralized operations dashboard.
+
+---
+
+### 15. What is Incident Manager?
+
+Incident response management.
+
+---
+
+### 16. What is Explorer?
+
+Multi-account operational insights.
+
+---
+
+### 17. What is Session Manager logging?
+
+Audit logging for sessions.
+
+---
+
+### 18. What is Parameter Store encryption?
+
+KMS encrypted parameters.
+
+---
+
+### 19. Difference between Parameter Store and Secrets Manager?
+
+| Parameter Store | Secrets Manager |
+| --------------- | --------------- |
+| Config storage  | Secret rotation |
+
+---
+
+### 20. What is hybrid activation?
+
+Manage on-prem servers.
+
+---
+
+## Advanced Level
+
+### 21. What is Automation document?
+
+JSON/YAML workflow definition.
+
+---
+
+### 22. What is document type in SSM?
+
+Automation, Command, Session.
+
+---
+
+### 23. What is secure string parameter?
+
+Encrypted parameter type.
+
+---
+
+### 24. What is Fleet Manager?
+
+GUI-based server management.
+
+---
+
+### 25. What is patch baseline?
+
+Patch approval rules.
+
+---
+
+### 26. What is patch group?
+
+Logical patching target group.
+
+---
+
+### 27. What is SSM compliance?
+
+Patch and configuration compliance tracking.
+
+---
+
+### 28. What is Session Manager port forwarding?
+
+Secure remote port access.
+
+---
+
+### 29. What is Just-in-Time access?
+
+Temporary privileged access.
+
+---
+
+### 30. What is SSM integration with CloudWatch?
+
+Operational monitoring integration.
+
+---
+
+## Expert Level
+
+### 31. SSM best practices?
+
+* Enable logging
+* Least privilege
+* Automation
+
+---
+
+### 32. How do you secure SSM?
+
+IAM, KMS, logging.
+
+---
+
+### 33. What is centralized server management?
+
+Single-pane operational control.
+
+---
+
+### 34. What is patch compliance reporting?
+
+Audit patch status.
+
+---
+
+### 35. What is server hardening automation?
+
+Automated security configuration.
+
+---
+
+### 36. What is SSM troubleshooting?
+
+* Agent offline
+* IAM issue
+* Connectivity issue
+
+---
+
+### 37. What is remote access advantage?
+
+No inbound SSH/RDP ports needed.
+
+---
+
+### 38. What is automation rollback?
+
+Revert failed workflows.
+
+---
+
+### 39. What is change management?
+
+Controlled operational changes.
+
+---
+
+### 40. What is operational governance?
+
+Policy-based management.
+
+---
+
+### 41. What is SSM integration with Lambda?
+
+Automated remediation workflows.
+
+---
+
+### 42. What is disaster recovery automation?
+
+Automated failover operations.
+
+---
+
+### 43. What is software inventory management?
+
+Tracking installed software.
+
+---
+
+### 44. What is operational insight?
+
+Centralized operational analytics.
+
+---
+
+### 45. What is cloud resource grouping?
+
+Organized resource management.
+
+---
+
+### 46. What is session auditing?
+
+Logging user sessions.
+
+---
+
+### 47. What is secret injection?
+
+Passing secrets securely to apps.
+
+---
+
+### 48. Common SSM interview scenario?
+
+Patch thousands of EC2 servers automatically.
+
+---
+
+### 49. What is compliance dashboard?
+
+Operational compliance reporting.
+
+---
+
+### 50. SSM best practices summary?
+
+* Automation
+* Logging
+* Secure access
+* Patch management
+
+---
+
+# AWS Certificate Manager (ACM) Interview Questions and Answers (1–50)
+
+## Beginner Level
+
+### 1. What is AWS ACM?
+
+AWS Certificate Manager manages SSL/TLS certificates.
+
+---
+
+### 2. Why use ACM?
+
+Secure HTTPS communication.
+
+---
+
+### 3. What certificates does ACM provide?
+
+Public and private certificates.
+
+---
+
+### 4. What is SSL/TLS certificate?
+
+Encrypts network communication.
+
+---
+
+### 5. What services integrate with ACM?
+
+* ALB
+* CloudFront
+* API Gateway
+
+---
+
+### 6. What is certificate validation?
+
+Ownership verification process.
+
+---
+
+### 7. Types of validation?
+
+* DNS validation
+* Email validation
+
+---
+
+### 8. What is DNS validation?
+
+Domain ownership verified via DNS record.
+
+---
+
+### 9. What is wildcard certificate?
+
+Secures all subdomains.
+
+Example:
+
+```text id="4xll06"
+*.example.com
+```
+
+---
+
+### 10. What is certificate renewal?
+
+Automatic certificate update.
+
+---
+
+## Intermediate Level
+
+### 11. What is ACM Private CA?
+
+Private certificate authority service.
+
+---
+
+### 12. What is certificate chain?
+
+Hierarchy of trusted certificates.
+
+---
+
+### 13. What is SAN certificate?
+
+Multiple domains in one certificate.
+
+---
+
+### 14. What is imported certificate?
+
+Externally generated certificate upload.
+
+---
+
+### 15. What is certificate expiration?
+
+Certificate validity end date.
+
+---
+
+### 16. What is TLS handshake?
+
+Secure connection negotiation process.
+
+---
+
+### 17. What is HTTPS?
+
+Secure HTTP communication.
+
+---
+
+### 18. What is trust store?
+
+Collection of trusted root certificates.
+
+---
+
+### 19. What is mutual TLS?
+
+Both client and server authentication.
+
+---
+
+### 20. What is ACM integration with ELB?
+
+HTTPS load balancing support.
+
+---
+
+## Advanced Level
+
+### 21. ACM best practices?
+
+* Use DNS validation
+* Auto renewal
+* Monitor expiration
+
+---
+
+### 22. What is certificate transparency logging?
+
+Public certificate audit logging.
+
+---
+
+### 23. What is ACM regional limitation?
+
+Certificates region-specific except CloudFront.
+
+---
+
+### 24. What is ACM with CloudFront?
+
+Global HTTPS certificate usage.
+
+---
+
+### 25. What is certificate revocation?
+
+Invalidating compromised certificates.
+
+---
+
+### 26. What is OCSP?
+
+Online Certificate Status Protocol.
+
+---
+
+### 27. What is perfect forward secrecy?
+
+Protects past sessions from key compromise.
+
+---
+
+### 28. What is TLS version?
+
+Encryption protocol version.
+
+---
+
+### 29. What is cipher suite?
+
+Encryption algorithm combination.
+
+---
+
+### 30. What is private CA hierarchy?
+
+Root and subordinate CA structure.
+
+---
+
+## Expert Level
+
+### 31. How do you secure ACM?
+
+IAM access control and monitoring.
+
+---
+
+### 32. What is certificate lifecycle management?
+
+Creation, renewal, revocation.
+
+---
+
+### 33. What is centralized certificate management?
+
+Single certificate governance.
+
+---
+
+### 34. What is ACM troubleshooting?
+
+* Validation failure
+* Expired cert
+* DNS issue
+
+---
+
+### 35. What is imported cert limitation?
+
+No automatic renewal.
+
+---
+
+### 36. What is ACM pricing?
+
+Public certs are free.
+
+---
+
+### 37. What is enterprise PKI?
+
+Organization-wide certificate infrastructure.
+
+---
+
+### 38. What is certificate rotation?
+
+Replacing certificates periodically.
+
+---
+
+### 39. What is SSL offloading?
+
+Encryption handled by load balancer.
+
+---
+
+### 40. What is HSTS?
+
+HTTP Strict Transport Security.
+
+---
+
+### 41. What is browser trust model?
+
+Trusted root certificate verification.
+
+---
+
+### 42. What is certificate pinning?
+
+Restricting accepted certificates.
+
+---
+
+### 43. What is hybrid certificate management?
+
+Cloud and on-prem certificate handling.
+
+---
+
+### 44. What is cross-account certificate sharing?
+
+Sharing ACM certs between accounts.
+
+---
+
+### 45. What is ALB HTTPS listener?
+
+Secure load balancer listener.
+
+---
+
+### 46. What is API Gateway HTTPS integration?
+
+Secure API communication.
+
+---
+
+### 47. Common ACM interview scenario?
+
+Secure website using ALB and ACM.
+
+---
+
+### 48. What is compliance requirement?
+
+Encrypted communication standards.
+
+---
+
+### 49. What is monitoring certificate expiration?
+
+CloudWatch and ACM alerts.
+
+---
+
+### 50. ACM best practices summary?
+
+* DNS validation
+* Auto renewal
+* Strong TLS
+* Monitoring
+
